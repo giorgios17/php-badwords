@@ -6,10 +6,10 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 <?php 
 
-$text = 'Primo esercizio PHP.';
+$text = '<p>Primo esercizio PHP.</p>';
 $textLength =  strlen($text);
 echo ($text . ' Lunghezza stringa: ' . $textLength);
-
-
+$word = $_GET["input"];
+echo $word;
 
 ?>
