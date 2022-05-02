@@ -13,5 +13,4 @@ $textCensored = $_GET["input"];
 $textModifyed = str_replace($textCensored, "***", $text);
 echo $textModifyed;
 
-
 ?>
