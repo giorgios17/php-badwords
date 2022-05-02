@@ -6,9 +6,9 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 <?php 
 
-$text = 'Primo esercizio PHP';
-echo $text;
-var_dump($text);
+$text = 'Primo esercizio PHP.';
+$textLength =  strlen($text);
+echo ($text . ' Lunghezza stringa: ' . $textLength);
 
 
 
